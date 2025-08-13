@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MadeByKat</title>
+  <link rel="icon" type="image/ico" href="images/favicon.ico" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <a href="#home" id="logo">
+      <img src="images/logo.svg" alt="logo" width="140" height="112" />
+    </a>
+    <nav class="nav-links">
+      <a href="#home" class="nav-link active-nav">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home" class="active-nav">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="background-shapes"></div>
+
+    <!-- HERO -->
+    <section id="home" class="hero-shot fade-in-scroll">
+      <div class="hero-text fade-in-scroll">
+        <p class="intro-text">Hi! I am</p>
+        <span class="hero-shot-name">Katerina Skubeva</span>
+        <div class="hero-title-block">
+          <span class="hero-shot-title typing">UX & UI</span>
+          <span class="hero-shot-designer typing-delay">Designer</span>
+        </div>
+        <p class="personal-bio home-bio">
+          I’m a freshly graduated UX/UI designer with 12 years of professional experience in fast-paced, real-world environments.
+        </p>
+        <p class="personal-bio home-bio">
+          My background helps me approach design with maturity, structure, and a focus on solving real user needs with empathy and clarity.
+        </p>
+        <a href="#contact" class="btn-style hire-btn">Hire me</a>
+      </div>
+      <div class="hero-img fade-scale">
+        <img src="images/home-hero-img.png" alt="Katerina Skubeva" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="hero-shot-about fade-in-scroll">
+      <div class="about-text fade-in-scroll">
+        <h1>
+          <span style="color:#fff;">About</span>
+          <span style="color:#1C3423"> Me</span>
+        </h1>
+        <p>
+          Based in Budapest, Hungary, I'm available for freelance collaborations and full-time positions.
+        </p>
+        <p>
+          My transition into UX/UI wasn’t accidental, it was driven by a passion for problem solving, empathy, and creating meaningful digital experiences.
+        </p>
+        <p>
+          I believe great design happens when curiosity meets structure, and I’m excited to turn insights into clear, helpful digital experiences.
+        </p>
+        <a href="https://www.figma.com/design/Wvd2lsV9mPW95XC59D9QpN/Resume?m=auto"
+           target="_blank" class="btn-style resume-btn">Resume</a>
+      </div>
+      <div class="about-img fade-scale">
+        <img src="images/about-hero-img.png" alt="Katerina Skubeva" />
+      </div>
+    </section>
+    <!-- SKILL BARS -->
+    <div class="sliders fade-in-scroll">
+      <div class="slider-item">
+        <span class="slider-name">UX</span>
+        <div class="slider-container">
+          <div class="slider-track"></div>
+          <div class="slider-value" style="width: 90%;">
+            <span class="slider-thumb"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item">
+        <span class="slider-name">Website Design</span>
+        <div class="slider-container">
+          <div class="slider-track"></div>
+          <div class="slider-value" style="width: 80%;">
+            <span class="slider-thumb"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item">
+        <span class="slider-name">App Design</span>
+        <div class="slider-container">
+          <div class="slider-track"></div>
+          <div class="slider-value" style="width: 95%;">
+            <span class="slider-thumb"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in-scroll">
+      <h1 class="section-title">
+        <span style="color:#fff;">My</span> <span style="color:#1C3423">Projects</span>
+      </h1>
+
+      <div class="banner fade-in-scroll">
+        <img src="images/banner3.png" alt="Project Banner" />
+      </div>
+
+      <div class="banner-text fade-in-scroll">
+        <p>Here’s a collection of my UX/UI design projects, including mobile apps and websites.</p>
+        <p>From concept to high-fidelity prototypes, I’ve focused on creating intuitive, user-centered experiences.</p>
+        <p>You’ll find mood boards, branding elements, and UI designs that reflect my creative process and attention to detail across different industries and styles.</p>
+      </div>
+
+      <!-- === FILTER MENU === -->
+      <div class="project-filter-menu">
+        <button class="filter-btn active" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">App Design</button>
+        <button class="filter-btn" data-filter="ux">UX/UI</button>
+      </div>
+
+      <!-- PROJECT GALLERY -->
+      <div class="projects-gallery">
+        <!-- WEB DESIGN -->
+        <div class="project-category" data-category="web">
+      <!-- Flora Whisper -->
+          <!-- Flora Whisper -->
+          <div class="project-box fade-in-scroll">
+  <!-- Project Image OUTSIDE white box -->
+            <div class="project-image">
+    <a href="https://www.figma.com/proto/bePfAx6Kj4Qk2gc15KcPsz/FloraWhisper?node-id=5-250" target="_blank" rel="noopener noreferrer">
+                <img src="images/flora-whisper-img.svg" alt="Flora Whisper" />
+              </a>
+            </div>
+
+  <!-- White Box: Logo + Text -->
+            <div class="project-description">
+              <div class="logo">
+                <img src="images/flora-whisper-logo-new.png" alt="Flora Whisper Logo" />
+              </div>
+              <h3>Flora Whisper – UX Case Study</h3>
+              <p><strong>The Challenge</strong></p>
+    <p>Beginner plant owners often hesitate to buy plants online because they fear they won’t know how to take care of them. Most online plant shops focus only on sales, not on helping users feel confident.</p>
+              <ul>
+                <li>Encourage beginners to buy plants</li>
+                <li>Provide simple care instructions for each product</li>
+                <li>Build a warm, trustworthy online experience</li>
+              </ul>
+              <p><strong>The Objectives</strong></p>
+              <ul>
+                <li>Build trust through a fresh and natural brand look</li>
+                <li>Educate while selling by including easy care tips with every plant</li>
+                <li>Simplify the buying process with a fast, 3-step checkout</li>
+              </ul>
+              <p><strong>Research & Insights</strong></p>
+              <ul>
+                <li>User Interviews: 5 beginner plant owners → 4/5 said they fear “killing the plant.”</li>
+                <li>Competitive Analysis: 3 online plant stores analyzed → none offered integrated care tips.</li>
+                <li>Key Insight: Users wanted visual, simple guidance and a friendly tone that doesn’t feel “technical.”</li>
+              </ul>
+              <p><strong>The Solution</strong></p>
+              <ul>
+                <li>Tone & Feel: Soft green, lavender, and rose tones for a fresh, warm vibe</li>
+                <li>Care Cards: Mini visual cards with 3 simple care icons under each product</li>
+                <li>Quick Purchase: Sticky “Add to Cart” button + simplified checkout</li>
+                <li>Emotional Design: Leaf illustrations for a friendly, natural vibe</li>
+              </ul>
+              <p><strong>My Role & Tools</strong></p>
+              <p>Role: UX Research, UI Design, Prototyping</p>
+              <p>Tools: Figma (UI & Prototypes), Canva (custom icons)</p>
+              <p><strong>Results (Concept Testing)</strong></p>
+              <ul>
+                <li>3/4 testers said they would buy because of the care tips</li>
+                <li>All testers understood the navigation within 10 seconds</li>
+              </ul>
+            </div>
+
+  <!-- Style Guide OUTSIDE white box -->
+            <div class="project-styleguide">
+              <img src="images/flora-whisper-style-guide.png" alt="Flora Whisper Style Guide" />
+            </div>
+          </div>
+
+          <!-- ✅ HealthHub Project -->
+          <div class="project-box fade-in-scroll">
+
+  <!-- Project Image -->
+            <div class="project-image">
+    <a href="https://www.figma.com/proto/hPYaO2KCswbrXWdFQ6Grt8/UX-UI-January--25?node-id=86-944" target="_blank" rel="noopener noreferrer">
+                <img src="images/healthub-mockup.svg" alt="HealthHub" />
+              </a>
+            </div>
+
+  <!-- Project Description (White Box) -->
+            <div class="project-description">
+              <div class="logo">
+                <img src="images/healthub-logo.png" alt="HealthHub Logo" />
+              </div>
+              <h3>HealthHub – UX Case Study</h3>
+
+              <p><strong>The Challenge</strong></p>
+    <p>Fitness enthusiasts needed a platform where they could not only shop for equipment but also learn and connect with others. Existing websites felt too transactional, with no sense of community.</p>
+
+              <p><strong>The Objectives:</strong></p>
+              <ul>
+                <li>Combine e-commerce with community-driven content (blog + forum)</li>
+                <li>Build trust with a professional, energetic brand feel</li>
+                <li>Make browsing and purchasing seamless</li>
+              </ul>
+
+              <p><strong>Research & Insights:</strong></p>
+              <ul>
+                <li>Surveys: 10 gym-goers → 7/10 said they want to read expert tips while shopping</li>
+                <li>Competitive Research: Popular sites lacked forums or interactive features</li>
+                <li>Key Insight: Users stayed longer when content felt educational, not purely commercial</li>
+              </ul>
+
+              <p><strong>The Solution:</strong></p>
+              <ul>
+                <li>Visual Identity: Soft mint green, lavender, and aqua for an energetic but friendly vibe</li>
+                <li>Community Hub: Blog + forum integrated directly into the shop</li>
+                <li>Wireframes: Defined clear product categories with educational articles linked underneath</li>
+                <li>Trust Elements: Highlighted product reviews and trainer recommendations</li>
+              </ul>
+
+              <p><strong>My Role & Tools:</strong></p>
+              <p>Role: Co-creator of the UX structure, Wireframing, UI design decisions</p>
+              <p>Tools: Figma, Miro</p>
+
+              <p><strong>Results (Concept Testing):</strong></p>
+              <ul>
+                <li>Test users described it as “more like a fitness community than just a shop”</li>
+                <li>Users could navigate from blog posts to a product page in under 5 clicks</li>
+              </ul>
+            </div>
+
+  <!-- ✅ Style Guide goes here — UNDER the description -->
+            <div class="project-styleguide">
+              <img src="images/healthub-styleguide.png" alt="HealthHub Style Guide" />
+            </div>
+          </div>
+        </div> <!-- CLOSE .project-category[data-category="web"] -->
+
+        <!-- APP DESIGN -->
+        <!-- Jet Set Go -->
+        <div class="project-category" data-category="app" style="display: none;">
+          <div class="project-box fade-in-scroll">
+            <div class="project-image">
+      <a href="https://www.figma.com/proto/wG9IZuVDIuGGxqY0KOfcpB/JetSetGo?node-id=16-53" target="_blank" rel="noopener noreferrer">
+                <img src="images/jsg-mockup.png" alt="Jet Set Go" />
+              </a>
+            </div>
+            <div class="project-description">
+              <div class="logo">
+                <img src="images/jsg-logopng.png" alt="Jet Set Go Logo" />
+              </div>
+              <h3>Jet Set Go – UX Case Study</h3>
+              <p><strong>The Challenge</strong></p>
+      <p>Travelers wanted an app that made trip planning easier, but existing apps felt cluttered and lacked real-time updates for flights and destinations.</p>
+              <p><strong>The Objectives</strong></p>
+              <ul>
+                <li>Provide real-time flight updates and delay notifications</li>
+                <li>Allow saving destinations and wish lists offline</li>
+                <li>Keep navigation simple for frequent travelers</li>
+              </ul>
+              <p><strong>Research & Insights</strong></p>
+              <ul>
+                <li>User Interviews: Frequent flyers → frustration with delayed notifications</li>
+                <li>Pain Point: Many apps required internet to access saved destinations</li>
+                <li>Key Insight: Users wanted fast updates + offline usability</li>
+              </ul>
+              <p><strong>The Solution</strong></p>
+              <ul>
+                <li>Bright & Energetic Palette: Orange, light blue, and yellow for a positive travel vibe</li>
+                <li>Offline Mode: Saved wish lists and maps available without internet</li>
+                <li>Clean Layout: Tabs for “Flights,” “Stays,” and “Saved Trips”</li>
+              </ul>
+              <p><strong>My Role & Tools</strong></p>
+              <ul>
+                <li>Role: UX/UI Design, Prototyping</li>
+                <li>Tools: Figma</li>
+              </ul>
+              <p><strong>Results (Concept Testing)</strong></p>
+              <ul>
+                <li>4/5 testers said the offline wish list would replace their current app</li>
+                <li>90% of tasks completed successfully during first-use testing</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Pocket Weather -->
+          <div class="project-box fade-in-scroll">
+            <div class="project-image">
+          <a href="https://www.figma.com/proto/hPYaO2KCswbrXWdFQ6Grt8/UX-UI-January--25?node-id=259-1454" target="_blank" rel="noopener noreferrer">
+                <img src="images/wather-app-mockup.svg" alt="Pocket Weather" />
+              </a>
+            </div>
+            <div class="project-description">
+              <div class="logo">
+                <img src="images/PocketWeather logo.svg" alt="Pocket Weather Logo" />
+              </div>
+              <h3>Pocket Weather – UX Case Study</h3>
+              <p><strong>The Challenge</strong></p>
+    <p>People rely on weather apps daily, but many apps overwhelm users with technical data instead of simple, personalized forecasts.</p>
+              <p><strong>The Objectives</strong></p>
+              <ul>
+                <li>Provide quick, easy-to-read forecasts</li>
+                <li>Allow custom alerts (e.g., UV levels, rain reminders)</li>
+                <li>Make the app feel approachable and trustworthy</li>
+              </ul>
+              <p><strong>Research & Insights</strong></p>
+              <ul>
+                <li>Surveys: 15 users → top request was “alerts that matter to me”</li>
+                <li>Pain Point: Weather apps felt cluttered with ads and unused features</li>
+                <li>Key Insight: Users valued personalized, clean design over fancy visuals</li>
+              </ul>
+              <p><strong>The Solution</strong></p>
+              <ul>
+                <li>Custom Alerts: “Notify me if UV is above 10” or “Rain after 5 PM”</li>
+                <li>Visual Palette: Red, yellow, blue, and grey representing weather conditions</li>
+                <li>Minimalist Layout: Only key info (temp, UV, rain) displayed first</li>
+              </ul>
+              <p><strong>My Role & Tools</strong></p>
+              <p>Role: UX/UI Design</p>
+              <p>Tools: Figma</p>
+              <p><strong>Results (Concept Testing)</strong></p>
+              <ul>
+                <li>Testers completed key weather-check tasks 30% faster than with their current app</li>
+                <li>Positive feedback on personalized alerts: “Feels made for me.”</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- UX/UI DESIGN -->
+        <div class="project-category" data-category="ux" style="display: none;">
+          <img src="images/moodboard healthhub.svg" />
+          <img src="images/Buttons HealtHub.svg" />
+          <img src="images/wireframes.png" />
+          <img src="images/card1.png" />
+          <img src="images/card2.png" />
+          <img src="images/moodboard jetsetgo.svg" />
+          <img src="images/User Persona (Dark).png" />
+          <img src="images/User Journey Map.svg" />
+        </div>
+      </div>
+    </section>
+    <!-- 🔹 UX/UI DESIGN PROJECTS -->
+    <div class="project-category" data-category="ux" style="display: none;">
+      <img src="images/moodboard healthhub.svg" />
+      <img src="images/Buttons HealtHub.svg" />
+      <img src="images/wireframes.png" />
+      <img src="images/card1.png" />
+      <img src="images/card2.png" />
+      <img src="images/moodboard jetsetgo.svg" />
+      <img src="images/User Persona (Dark).png" />
+      <img src="images/User Journey Map.svg" />
+    </div>
+    <!-- 🔹 WEB DESIGN PROJECTS -->
+    <div class="project-category" data-category="web">
+      <!-- Flora Whisper -->
+      <!-- HealthHub -->
+    </div>
+    <!-- 🔹 APP DESIGN PROJECTS -->
+    <div class="project-category" data-category="apps">
+      <!-- JetSetGo -->
+      <!-- PocketWeather -->
+    </div>
+    <!-- 🔹 UX/UI DESIGN PROJECTS -->
+    <div class="project-category" data-category="ux" style="display: none;">
+      <!-- Style guide images -->
+    </div>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact fade-in-scroll">
+      <h1 class="section-title">
+        <span style="color:#fff;">Let's</span>
+        <span style="color:#1C3423"> Talk</span>
+      </h1>
+      <p class="contact-paragraph" style="color: #fff; text-align: center; line-height: 1.8;">
+        <strong style="font-size: 22px; display: block; margin-bottom: 10px;">
+          Got a project, idea, or question?
+        </strong>
+        <span style="display: block; margin-bottom: 10px;">
+          Fill out the form, and I’ll get back to you as soon as possible.
+        </span>
+        <span style="display: block;">
+          I’m always happy to connect, collaborate, or just chat about design.
+        </span>
+      </p>
+      <form action="mailto:kate88sk@gmail.com" method="post" enctype="text/plain" class="contact-form fade-in-scroll">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn-style contact-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">
+      <img src="images/logo.svg" alt="logo" width="120" class="footer-logo" />
+    </div>
+    <div class="footer-navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/katerina.skubeva/"><img src="images/ph_instagram-logo-fill.svg" alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/in/katerina-skubeva-607b5a1a1/"><img src="images/bi_linkedin.svg" alt="LinkedIn" /></a>
+      <a href="mailto:kate88sk@gmail.com"><img src="images/bi_envelope-fill.svg" alt="Email" /></a>
+    </div>
+    <p>© 2025 MadeByKat. All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+  <!-- Your HTML content -->
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const title = document.querySelector('.hero-shot-title');
+    
+    setTimeout(() => {
+      title.classList.add('finished');
+    }, 2000); // match your typing animation duration
+  });
+</script>
+</body>
+</html>
+</body>
+</html>
